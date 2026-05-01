@@ -27,8 +27,33 @@
 ├── log.md           # 操作日志（更新时必须追加）
 ├── README.md        # 使用说明
 └── crates/
-    ├── rand.md      # 示例文件，可参考格式
+    ├── rand.md      # 最新版 API（示例文件，可参考格式）
+    ├── rand-0.9.md  # 指定旧版 API（多版本共存时使用）
     └── ...
+```
+
+## 版本命名规则
+
+```
+crate名-版本号.md    # 指定版本的 API 文档
+crate名.md           # 最新版的 API 文档（不写版本号）
+```
+
+**示例：**
+
+| 文件名 | 含义 |
+|--------|------|
+| `crossterm.md` | crossterm 最新版（当前 0.29） |
+| `crossterm-0.28.md` | crossterm 0.28 旧版 API |
+
+**什么时候加版本后缀：**
+- 当用户项目依赖的版本与最新版有 breaking change 时
+- 比如用户问 "crossterm 0.28 的 event::read 签名是什么"，就建 `crossterm-0.28.md`
+
+**索引中标注版本：**
+```
+- [[crates/crossterm.md]] — 终端控制 (v0.29)
+- [[crates/crossterm-0.28.md]] — 终端控制 (v0.28)
 ```
 
 ## 抓取文档步骤
