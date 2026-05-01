@@ -14,3 +14,12 @@
 - 写入 crates/ratatui.md
 - 包含: init/restore, Terminal, Frame, Layout/Rect/Constraint, Style/Color/Stylize, Text/Line/Span, Widget/StatefulWidget, Block, Paragraph, List, Table, Gauge, Chart, Scrollbar, Tabs
 - 更新 index.md
+
+## [2026-05-01] ingest | crossterm crate 文档
+- 从 docs.rs 获取 crossterm 0.29.0 最新 API
+- 写入 crates/crossterm.md
+- 包含: cursor, event, style, terminal, clipboard, tty 六大模块
+- 更新 index.md
+
+## [2026-05-01] create | MAINTENANCE.md 维护指南
+- 添加维护操作文档到仓库根目录
