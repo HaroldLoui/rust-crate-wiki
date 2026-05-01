@@ -8,3 +8,9 @@
 - 写入 crates/rand.md
 - 包含: Rng trait, rng(), random(), distr, seq, rngs
 - 更新 index.md
+
+## [2026-05-01] ingest | ratatui crate 文档
+- 从 docs.rs 获取 ratatui 0.30.0 最新 API
+- 写入 crates/ratatui.md
+- 包含: init/restore, Terminal, Frame, Layout/Rect/Constraint, Style/Color/Stylize, Text/Line/Span, Widget/StatefulWidget, Block, Paragraph, List, Table, Gauge, Chart, Scrollbar, Tabs
+- 更新 index.md
