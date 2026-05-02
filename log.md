@@ -23,3 +23,9 @@
 
 ## [2026-05-01] create | MAINTENANCE.md 维护指南
 - 添加维护操作文档到仓库根目录
+
+## [2026-05-02] ingest | whoami crate 文档
+- 从 docs.rs 获取 whoami 2.1.2 最新 API
+- 写入 crates/whoami.md
+- 包含: username/realname/account/hostname/devicename/distro 等函数, Platform/DesktopEnvironment/CpuArchitecture/Width 四个枚举, Language/LanguagePreferences/Error 三个 struct
+- 更新 index.md
